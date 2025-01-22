@@ -1,0 +1,80 @@
+.navbar {
+    background-color: #0f4c3a; /* Custom navbar background color */
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.nav-link {
+    color: white;
+    font-weight: 500;
+}
+.nav-link:hover {
+    color: #ffcc00; /* Custom hover color */
+}
+.btn-signin {
+    background-color: #ffcc00;
+    color: #0f4c3a;
+    font-weight: bold;
+    border: none;
+}
+.btn-signin:hover {
+    background-color: #e6b800;
+}
+.service-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .service-card:hover {
+    transform: scale(1.02);
+  }
+
+  .service-card img {
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .service-info {
+    padding: 15px;
+  }
+
+  .service-info h5 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .service-info p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+
+  .service-info .btn {
+    font-size: 14px;
+  }
+
+  .price {
+    font-weight: bold;
+    color: #28a745;
+  }
+  .slick-slider img {
+    margin: auto;
+    border-radius: 8px;
+  }
+  .slick-prev:before, .slick-next:before {
+    color: black; /* Customize arrow color */
+  }
+  .card {
+    border: none; /* Remove card borders */
+  }
+  .card-body {
+    text-align: center; /* Center align text in the card */
+  }

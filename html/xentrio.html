@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+<link rel="stylesheet" href="../styling/styles.css">
+    <!-- Bootstrap CSS (via CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome (via CDN) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Axertio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Main Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">How It Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Browse Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Users</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                            <li><a class="dropdown-item" href="#">Page 1</a></li>
+                            <li><a class="dropdown-item" href="#">Page 2</a></li>
+                            <li><a class="dropdown-item" href="#">Page 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+               <!-- Button with FontAwesome Icon -->
+<div class="d-flex align-items-center">
+    <!-- Bell Icon -->
+    <button class="btn text-white me-3">
+        <i class="fas fa-bell"></i>
+    </button>
+
+    <!-- Basket Icon -->
+    <button class="btn text-white me-3">
+        <i class="fas fa-shopping-basket"></i>
+    </button>
+
+    <!-- Sign In Button -->
+    <button class="btn btn-signin">
+        <i class="fas fa-sign-in-alt me-2"></i>Sign In
+    </button>
+</div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Placeholder -->
+    <div class="text-left">
+        <div class="bg-dark text-white">
+            <div class="container-fluid py-5 px-4">
+              <div class="row flex-lg-row-reverse align-items-center gy-5 py-5 pt-0">
+                <div class="col-12 col-lg-6">
+                  <img src="https://picsum.photos/400/300" class="d-block mx-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                  <div class="d-grid gap-2 d-flex flex-column flex-sm-row justify-content-md-start align-items-start small">
+                    <a href="#" class="btn-danger rounded-pill px-3 py-1 text-decoration-none">Hello Notice Me!</a>
+                    <a href="#" class="btn-secondary rounded-pill px-3 py-1 text-decoration-none">Hello Notice Me!</a>
+                  </div>
+                  <h1 class="display-5 fw-bold lh-1 my-3">Responsive left-aligned hero with image</h1>
+                  <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h1>helloww</h1>
+          </div>
+          <div>
+            <div class="container my-5">
+                <div class="slick-slider">
+                  <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Slide+1" class="card-img-top" alt="Slide 1">
+                    <div class="card-body">
+                      <h5 class="card-title">Slide 1</h5>
+                      <p class="card-text">Description for Slide 1.</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Slide+2" class="card-img-top" alt="Slide 2">
+                    <div class="card-body">
+                      <h5 class="card-title">Slide 2</h5>
+                      <p class="card-text">Description for Slide 2.</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Slide+3" class="card-img-top" alt="Slide 3">
+                    <div class="card-body">
+                      <h5 class="card-title">Slide 3</h5>
+                      <p class="card-text">Description for Slide 3.</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Slide+4" class="card-img-top" alt="Slide 4">
+                    <div class="card-body">
+                      <h5 class="card-title">Slide 4</h5>
+                      <p class="card-text">Description for Slide 4.</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Slide+5" class="card-img-top" alt="Slide 5">
+                    <div class="card-body">
+                      <h5 class="card-title">Slide 5</h5>
+                      <p class="card-text">Description for Slide 5.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="container my-5">
+            <h2 class="text-center mb-4">Hand Picked Top Services</h2>
+            <p class="text-center text-muted mb-5">Most viewed and all-time top-selling services</p>
+            
+            <div class="row g-4">
+              <!-- Service Card -->
+              <div class="col-md-6 col-lg-4 w-100">
+                <div class="service-card d-flex">
+                    <div class="w-25">
+                  <img src="https://via.placeholder.com/400x150" alt="Service Image" class="img-fluid">
+                </div>
+                  <div class="service-info w-50">
+                    <h5>Looking for a content writer for my website</h5>
+                    <p><strong>Location:</strong> Los Angeles, CA</p>
+                    <p><strong>Success Rate:</strong> 93% Completed</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span class="price">$50.00/hr</span>
+                      <a href="#" class="btn btn-outline-primary btn-sm">View Detail</a>
+                    </div>
+                  </div>
+                  <div class="w-25">
+                  <h1>ggff</h1>
+                </div>
+                </div>
+              </div>
+              
+              <!-- Repeat cards -->
+              <div class="col-md-6 col-lg-4 w-100">
+                <div class="service-card d-flex">
+                    <div class="w-25">
+                  <img src="https://via.placeholder.com/400x150" alt="Service Image" class="img-fluid">
+                </div>
+                  <div class="service-info w-50">
+                    <h5>Looking for a content writer for my website</h5>
+                    <p><strong>Location:</strong> Los Angeles, CA</p>
+                    <p><strong>Success Rate:</strong> 93% Completed</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span class="price">$50.00/hr</span>
+                      <a href="#" class="btn btn-outline-primary btn-sm">View Detail</a>
+                    </div>
+                  </div>
+                  <div class="w-25">
+                  <h1>ggff</h1>
+                </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 w-100">
+                <div class="service-card d-flex">
+                    <div class="w-25">
+                  <img src="https://via.placeholder.com/400x150" alt="Service Image" class="img-fluid">
+                </div>
+                  <div class="service-info w-50">
+                    <h5>Looking for a content writer for my website</h5>
+                    <p><strong>Location:</strong> Los Angeles, CA</p>
+                    <p><strong>Success Rate:</strong> 93% Completed</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span class="price">$50.00/hr</span>
+                      <a href="#" class="btn btn-outline-primary btn-sm">View Detail</a>
+                    </div>
+                  </div>
+                  <div class="w-25">
+                  <h1>ggff</h1>
+                </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 w-100">
+                <div class="service-card d-flex">
+                    <div class="w-25">
+                  <img src="https://via.placeholder.com/400x150" alt="Service Image" class="img-fluid">
+                </div>
+                  <div class="service-info w-50">
+                    <h5>Looking for a content writer for my website</h5>
+                    <p><strong>Location:</strong> Los Angeles, CA</p>
+                    <p><strong>Success Rate:</strong> 93% Completed</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span class="price">$50.00/hr</span>
+                      <a href="#" class="btn btn-outline-primary btn-sm">View Detail</a>
+                    </div>
+                  </div>
+                  <div class="w-25">
+                  <h1>ggff</h1>
+                </div>
+                </div>
+              </div>
+              <!-- Add more cards -->
+            </div>
+          </div>
+        
+    </div>
+
+    <!-- Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Slick Slider JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  
+    <!-- Bootstrap JS (via CDN) -->
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
