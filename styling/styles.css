@@ -57,8 +57,11 @@ html,body{
     padding: 15px;
     display: flex
 ;
+width: 60%;
+padding-left: 0px;
+padding-right: 0px;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
   .service-info h5 {
@@ -83,7 +86,6 @@ html,body{
   }
   .slick-slider img {
     margin: auto;
-    border-radius: 8px;
   }
   .slick-prev:before, .slick-next:before {
     color: black; /* Customize arrow color */
@@ -94,9 +96,14 @@ html,body{
   .card-body {
     text-align: center; /* Center align text in the card */
   }
-
+.form-control:focus{
+  background-color: #385c58 !important;
+}
 .slick-slider img{
   height: 160px;
+}
+.slick-list{
+  margin:40px 0px !important;
 }
  /* Ensure proper spacing for icons and button */
 .navbutton .btn {
@@ -106,7 +113,12 @@ html,body{
 .navbutton .btn:hover {
   background-color: #476a58; /* Slightly darker shade on hover */
 }
-
+.left-box{
+  width: 20%;
+}
+.secondcontainer{
+  gap: 20px;
+}
 /* Responsive adjustments for mobile and tablet views */
 @media (max-width: 992px) {
   .navbutton {
@@ -114,14 +126,66 @@ html,body{
       justify-content: start;
       padding: 10px 0px;
   }
+  .services_layout{
+    max-width: 100% !important;
+  }
+  .service-card{
+    flex-direction: column;
+  }
+  .left-box{
+    width: 100%;
+  }
+  .service-card img{
+    height: unset;
+  }
+  .service-info{
+    padding: 30px;
+    padding-top: 0px;
+       padding-top: 0px;
+       gap: 10px;
+       width: 100%;
+  }
+  .membership-container{
+    max-width: 100% !important;
+  }
+  .right-box{
+    width: 100% !important;
+  }
+  .search-box{
+    flex-wrap: wrap;
+  }
+  .secondcontainer{
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .secondcontainer-content{
+    flex-wrap: wrap;
+    gap: 15px;
+  }
 }
 
 
+.slick-slider .card {
+  margin: 15px;  /* Add space around each card */
+}
+.slick-slide{
+  border-color:rgb(235, 231, 231) !important;
+}
+::placeholder{
+  color: rgb(151, 150, 150) !important;
+}
 
-
-
-
-
+.box2{
+  padding-left: 10px;
+  border-left: 1px solid white;
+}
+.box3{
+  padding-left: 10px;
+  border-left: 1px solid white;
+}
+.right-box{
+  width: 20%;
+}
 
 
 .pulsing-effect {
@@ -185,9 +249,59 @@ html,body{
     transform: scale(1.2);
   }
 }
-
+.cards-description-box{
+  margin-bottom: 0px !important;
+}
 @media (max-width:768px){
   .services_layout{
     max-width: 100% !important;
   }
+  .cards-description-box{
+    margin-bottom: 60px;
+  }
+}
+.right-box-icon{
+  padding: 7px;
+}
+.slick-prev,
+.slick-next {
+  position: absolute !important;
+  top: -60px !important; /* Position the arrows near the top of the card */
+  right: 30px !important; /* Align the arrows to the right side */
+  z-index: 1000; /* Ensure the arrows are above the content */
+   border: 2px solid #000; /* Add a black border (adjust color as needed) */
+  border-radius: 50%; /* Make the arrows circular (optional) */
+  padding: 5px; /* Add space inside the border */
+  background-color: #fff; /* Add a background color for better visibility */
+  cursor: pointer; /* Change cursor to pointer for better UX */
+}
+
+.slick-prev {
+  right: 75px !important; /* Offset the previous arrow to the left of the next arrow */
+  left: unset !important; /* Remove the default left positioning */
+}
+
+.slick-next:before {
+    content: '→';
+        background: #f5f5f5;
+    padding: 7px;
+     color: #7a7a7a !important;
+}
+.slick-prev:before {
+    content: '→';
+      background: #f5f5f5;
+    padding: 7px; 
+     color: #7a7a7a !important;
+}
+
+.slider-card-icon{
+      top: 125px;
+    left: 15px;
+    color: white;
+    background: #214a46;
+    border-radius: 5px;
+    padding: 11px;
+}
+.card-body{
+  padding-top: 30px !important;
 }
